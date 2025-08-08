@@ -1,6 +1,6 @@
 # 🔐 Login, Registration & Forgot Password System
 
-A secure and responsive **user authentication system** built with **HTML, CSS, JavaScript, PHP, and MySQL**.  
+A secure and responsive **user authentication system** built with **HTML, CSS,PHP, and MySQL**.  
 This project includes a **Login Page**, **User Registration Page**, and **Forgot Password** functionality with password hashing for security.
 
 ---
