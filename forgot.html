@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot Password</title>
+    <link rel="stylesheet" href="forget.css">
+</head>
+<body>
+    
+
+    <form class="forgot-password-form" action="forgot.php" method="post">
+        <h2>Forgot Password</h2>
+
+        <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="new_password">New Password</label>
+            <input type="password" id="new_password" name="new_password" required>
+        </div>
+
+        <div class="form-group">
+            <input type="submit" value="Reset Password">
+        </div>
+
+        <div class="form-group">
+            <a href="login.html">Back to Login</a>
+        </div>
+    </form>
+</body>
+</html>

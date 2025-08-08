@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman',Times,serif;
+}
+body 
+{
+    height: 100vh;
+    width: 100%;
+    background: url('WhatsApp\ Image\ 2025-07-24\ at\ 22.18.59_d59ab8fd.jpg') no-repeat;
+    display: flex;
+    justify-content: center;                /*FORGOT PASSWORD BODY SECTION*/
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.forgot-password-form 
+{
+    display: block;
+    background: transparent;
+    padding: 15px 30px;
+    border-radius: 3px;                 /*FORGOT PASSWORD TRANSFORM SECTION*/
+    width: 100%;
+    max-width: 400px;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(0px);
+}
+
+.forgot-password-form h2        
+{                               /*FORGOT PASSWORD TITLE SECTION*/
+    text-align: center;
+    margin-bottom: 17px;
+    font-size: 2em;
+    font-weight: 750;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+   
+}
+
+.form-group 
+{                               /*SPACE BETWEEN EMAIL BOX & RESET PASSWORD BOX*/
+    margin-bottom: 17px;
+}
+
+.form-group label 
+{                               /*EMAIL TITLE*/
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 7px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+}
+
+.form-group input 
+{                                   /*EXPAND OF EMAIL ADDRESS IN TEXT, EMAIL, RESET PASSWORD*/
+    width: 100%;
+    padding: 7px;
+    border: none;
+    /*border-radius: 3px;*/
+    background: transparent;
+    color: rgb(255, 255, 255);
+    outline: none;
+}
+
+.form-group input[type="submit"] 
+{
+    background-color: transparent;    /*OVER ALL ALINGMENT OF RESET PASSWORD*/
+    color: rgb(255, 255, 255);
+    text-decoration: solid 1px;
+    /*border: none;*/
+    cursor: pointer;
+    border: 1px solid rgb(255, 255, 255);
+    
+    
+}
+
+.form-group input[type="submit"]:hover 
+{
+    background: transparent;   
+    color: rgb(226, 43, 43);             /*FIXED ALLINGMENT OF RESET PASSWORD*/
+    
+}
+
+.form-group a 
+{
+    display: block;
+    border:none;
+    border-radius: 20px;                    /*BACK TO LOGIN BOX*/
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.form-group a:hover 
+{
+    text-decoration:none;
+               /*]UNDERLINE OF BACK TO LOGIN TEXT*/
+}

@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Times New Roman', Times, serif;
+}
+body 
+{
+  height: 100vh;
+  width:100%;
+  display: flex;
+  justify-content: center;            /*REGISTRATION BODY SECTION*/
+  align-items: center;
+  background: url('WhatsApp\ Image\ 2025-07-24\ at\ 22.18.59_d59ab8fd.jpg') no-repeat;
+  /*background: black;*/
+  background-size: cover;
+  background-position: center;
+}
+.container 
+{
+  display: block;
+  flex-direction: column;
+  position: relative;
+  height: 570px;
+  width: 570px;                     /*REGISTRATION TRANSFORM SECTION*/
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  border: none;
+  /*padding: 15px 30px;*/
+  /*border-radius: 3px;*/
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(0px);
+}
+.container .title {
+  font-size: 2em;
+  font-weight: 750;
+  text-align: center;
+  color: transparent;
+}
+
+.content form .user-details {
+  display: flex;                  /*REGISTRATION ROW & COLUMN ALLINGMENT SECTION*/
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 1px 0 1px 0;
+}
+
+form .user-details .input-box {
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+  color: rgb(255, 255, 255);
+}
+form .input-box span.details {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 7px;
+  color: rgb(255, 255, 255);
+  
+}
+.user-details .input-box input {
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 1px;
+  padding-left: 1px;
+  border: 0px solid #ffffff;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+  background: transparent;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid {
+  border-color: transparent;
+}
+form .gender-details .gender-title {
+  font-size: 17px;
+  font-weight: 500;
+  color: rgb(255, 34, 0);
+
+}
+form .category {
+  display: flex;
+  color: rgb(255, 255, 255);
+  width: 80%;
+  margin: 14px 0;
+  justify-content: space-between;
+}
+form .category label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+form .category label .dot {
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background: #ffffff;
+  border: 5px solid transparent;
+  transition: all 0.3s ease;
+}
+#dot-1:checked~.category label .one,
+#dot-2:checked~.category label .two,
+#dot-3:checked~.category label .three {
+  /*background: #04006d88;
+  border-color: #ffffff;*/
+  background: #ff0000;
+  border-color:rgb(255, 255, 255);
+}
+form input[type="radio"] 
+{
+  display: none;
+  
+}
+form .button 
+{
+  height: 45px;
+  margin: 37px 0;
+}
+
+form .button input 
+{
+  height: 100%;
+  width: 100%;
+  border-radius: 3px;
+  border: none;
+  color: rgb(255, 255, 255);
+  text-decoration: solid 1px;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: transparent;
+  outline: 1px;
+  outline-style: solid;
+  outline-color: white;
+}
+
+.input-box input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: white;
+    padding: 0 35px 0 5px;
+}
+
+
+
+form-group input[type="submit"] 
+{
+  background-color: rgb(37, 37, 37);    
+  color: rgb(255, 252, 252);
+  text-decoration: solid 1px;
+  border: none;
+  cursor: pointer;
+    
+}
+.form-group input[type="submit"]:hover 
+{
+  background: transparent;
+}
+
+
+/* Responsive media query code for mobile devices */
+@media(max-width: 584px) 
+{
+  .container 
+  {
+    max-width: 100%;
+  }
+  form .user-details .input-box 
+  {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  form .category 
+  {
+    width: 100%;
+  }
+  .content form .user-details 
+  {
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+  .user-details::-webkit-scrollbar 
+  {
+    width: 5px;
+  }
+}
+/* Responsive media query code for mobile devices */
+@media(max-width: 459px) 
+{
+  .container .content .category {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+        <div>
+            
+            <div class="login-box"> <!--Css1-->            
+                <h2>User Login</h2> <!--Css2-->
+            <form action="login.php" method="post">
+                <div class="input-box"> <!--Css3-->
+                    <span class="icon"> <!--Css6-->
+                        <ion-icon name="mail"></ion-icon>
+                    </span>
+                    <input type="email" name="email" required>
+                    <label></label> <!--Css4-->
+                </div>
+
+                <div class="input-box">
+                    <span class="icon"> <!--Css6-->
+                        <ion-icon name="lock-closed"></ion-icon>
+                    </span>
+                    <input type="password" name="password" required> <!--Css5-->
+                    <label></label>
+                </div>
+                
+                <div class="remember-forget"> <!--Css7-->
+                    
+                    <label><input type="checkbox" value="Click Me!" required> <!--Css5-->
+                    Remember me</label>
+                    <a href="forgot.html" target="_blank" >Forgot Password</a>
+                </div>
+                <button><span>Login</span></button>
+            </form>
+            
+                <div
+                class="register-link"></div>
+                <p> Don't have account?
+                    <a href="Registration Page.html" target="_blank" class="custom-link">Register</a>
+                    
+                </p>
+                </div>
+        </div>
+    
+        <script src="login.js" ></script>
+    
+</body>
+</html>
