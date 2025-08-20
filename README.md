@@ -19,7 +19,7 @@ This project includes a **Login Page**, **User Registration Page**, and **Forgot
 **Frontend:** HTML, CSS.  
 **Backend:** PHP  
 **Database:** MySQL  
-**Server:** XAMPP / WAMP / LAMP
+**Server:** XAMPP
 
 ---
 
